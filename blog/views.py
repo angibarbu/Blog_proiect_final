@@ -20,6 +20,7 @@ class PostListView(ListView):
     context_object_name = 'posts'
     ordering = ['-date_posted']
     paginate_by = 4
+    # comentariu de test
 
 class UserPostListView(ListView):
     model = Post
