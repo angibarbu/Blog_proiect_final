@@ -1,4 +1,25 @@
-{% extends "blog/base.html"  %}
+{% extends "blog/base.html" %}
+{% load static %}
 {% block content %}
-    <h1>About Page</h1>
+    <h1>About</h1>
+    <body>
+
+    <img src="{% static 'blog/images/about.webp' %}" width="350" height="200">
+
+        <div class="article-content">
+        De ce iubesc calatoriile?
+
+        Pentru ca descopar locuri frumoase, locuri din care pot invata, locuri in care gasesc istorie si culturi diverse, locuri unde sa am diverse experiente.
+        Calatoriile trebuie sa-ti aduca experiente cat mai diverse, care apoi sa se transforme in amintiri.
+        Cred ca as scrie pagini intregi cu experiente, dar hai sa adaug aici cateva dintre cele mai memorabile.
+
+        Despre acestea, dar si despre multe alte patanii, intamplari, locuri frumoase sau interesante, puteti sa cititi pe blog.
+
+        Beneficiile călătoriilor țin de sănătatea fizică și de preplinul sufletesc în egală măsură. Excursiile sunt cele mai eficiente sesiuni de fitness și cele mai puternice antidepresive.
+
+        Lumea in care traim este o lume minunata, iar cei care ajung să o vadă sunt cei mai sănătoși și fericiți oameni!
+
+            <b>Așadar, fă-ți bagajul și pleacă la drum cât de des poți!</b>
+        </div>
+    </body>
 {% endblock content %}
